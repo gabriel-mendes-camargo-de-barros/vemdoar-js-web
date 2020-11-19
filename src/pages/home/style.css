@@ -1,0 +1,136 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .main-banner {
+  width: 1145px;
+  height: 470px;
+  background: url('../../images/spread_love.svg') 0 0 no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .slogan {
+  margin-top: 8rem;
+  height: 4rem;
+  font-size: 5.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .how-it-works {
+  margin-top: 8rem;
+}
+
+.home .how-it-works .title {
+  font-size: 3.8rem;
+}
+
+.home .how-it-works .phrase {
+  color: var(--title-color);
+  font-size: 3.2rem;
+  font-weight: 600;
+  
+  margin-top: 4rem;
+}
+
+.home .how-it-works .items-grid {
+  width: 110rem;
+  height: 10rem;
+  margin-top: 8rem;
+  display: grid;
+  grid-template-areas: 
+    "research find connect receive" 
+    "text none none none"
+    "login announce connect-advertiser donate"
+  ;
+  gap: 4rem;
+}
+
+.home .how-it-works .items-grid li {
+  height: 27rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.home .how-it-works .items-grid li span {
+  width: 20rem;
+  font-size: 2.2rem;
+}
+
+.home .how-it-works .items-grid li .research {
+  width: 25rem;
+  grid-area: research;
+}
+
+.home .how-it-works .items-grid li .find {
+  width: 25rem;
+  grid-area: find;
+}
+
+.home .how-it-works .items-grid li .connect {
+  width: 25rem;
+  grid-area: connect;
+}
+
+.home .how-it-works .items-grid li .receive {
+  width: 25rem;
+  grid-area: receive;
+}
+
+.home .how-it-works .second-phrase {
+  color: var(--title-color);
+  font-size: 3.2rem;
+  font-weight: 600;
+
+  margin-top: 28rem;
+}
+
+.home .how-it-works .items-grid li .login {
+  width: 25rem;
+  grid-area: login;
+}
+
+.home .how-it-works .items-grid li .announce {
+  width: 25rem;
+  grid-area: announce;
+}
+
+.home .how-it-works .items-grid li .connect-advertiser {
+  width: 25rem;
+  grid-area: connect-advertiser;
+}
+
+.home .how-it-works .items-grid li .donate {
+  width: 25rem;
+  grid-area: donate;
+}
+
+.attention {
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.attention span {
+  font-size: 4.6rem;
+}
+
+.attention .img {
+  width: 60rem;
+  
+}
+
+.about-us #story {
+  display: none;
+}

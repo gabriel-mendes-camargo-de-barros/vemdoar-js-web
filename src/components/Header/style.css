@@ -1,0 +1,63 @@
+.header {
+  width: 90%;
+  height: 100px;
+  margin: 40px auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .header-logo {
+  font-size: 5.6rem;
+}
+
+.header .header-logo .titulo {
+  color: var(--title-color);
+}
+
+.header .header-logo:hover {
+  color: var(--link-hover);
+}
+
+.header .header-logo .titulo:hover {
+  color: var(--main-color);
+}
+
+.header .header-links {
+  width: 260px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .header-links .header-link {
+  width: 80px;
+  height: 40px;
+  color: var(--main-color);
+  font-size: 1.8rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .header-links .header-link:hover {
+  color: var(--link-hover);
+}
+
+.header .header-links .header-link-donate {
+  width: 80px;
+  height: 40px;
+  background: var(--title-color);
+  color: var(--link-color);
+  font-weight: 600;
+  border-radius: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .header-links .header-link-donate:hover {
+  background: var(--link-hover);
+}
